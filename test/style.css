@@ -492,6 +492,11 @@ footer{
     display: flex;
     gap: 30px;
 }
+.mini-logo img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
 .logo_bottom{
     margin: 0;
     padding: 0;
