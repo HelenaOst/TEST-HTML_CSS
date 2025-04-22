@@ -69,6 +69,8 @@ nav ul{
     gap: 50px;
 }
 nav ul li{
+    display: flex;
+    align-items: center;
     color: #2B2C34;
     font-size: 20px;
     font-style: normal;
@@ -113,7 +115,6 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
 .one{
     width: 100%;
