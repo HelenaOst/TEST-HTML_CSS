@@ -76,6 +76,23 @@ nav ul li{
     line-height: normal;
     text-transform: capitalize;
 }
+nav ul li button{
+    width: 96px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+nav ul li button img{
+    width: 17px;
+    height: 17px;
+}
 .button-main{
     display: flex;
     padding: 10px 17px;
