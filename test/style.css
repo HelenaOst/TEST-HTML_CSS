@@ -246,9 +246,13 @@ main{
     flex-direction: column;
     border-radius: 8px;
     background: #FFFFFE;
-    gap: 30px;
     padding: 65px 130px 95px 30px;
     color: #2B2C34;
+}
+.card a{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .card img{
     width: 60px;
