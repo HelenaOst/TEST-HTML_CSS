@@ -24,7 +24,7 @@ header{
     background: #EFF0F3;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     position: sticky;
-    z-index: 2;
+    z-index: 1;
     top: 0;
     transform: translateX(1px);
 }
@@ -68,6 +68,7 @@ nav ul{
     gap: 50px;
 }
 nav ul li{
+    height: 25px;
     display: flex;
     align-items: center;
     color: #2B2C34;
@@ -247,22 +248,24 @@ main{
     background: #FFFFFE;
     gap: 30px;
     padding: 65px 130px 95px 30px;
+    color: #2B2C34;
 }
-.card:nth-child(3){
-    background: #6246EA;
-}
-.card:nth-child(3) img{
-    padding: 18px 10px;
-    border-radius: 7.458px;
+.card img{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FFFFFE;
+    border-radius: 7.458px;
 }
-.card:nth-child(3) p{
+.card:hover{
+    background: #6246EA;
     color: #FFFFFE;
 }
 .card p{
     height: 30px;
     width: 100px;
-    color: #2B2C34;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -442,17 +445,12 @@ main{
     font-weight: 400;
     line-height: normal;
 }
-.ellipse{
-    width: 130px;
-    height: 130px;
-}
-.ellipse > img:nth-child(2){
-    position: relative;
-    z-index: 1;
-    top: -112px;
-    left: 22px;
-    width: 80.066px;
-    height: 106.755px;
+.main_form label{
+    opacity: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 /*-----------------FOOTER-------------------------*/
 footer{
